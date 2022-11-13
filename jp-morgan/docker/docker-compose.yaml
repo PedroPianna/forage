@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  forageenv:
+    container_name: 'forageenv'
+    build: .
+    volumes:
+      - ../:/home/
+    command: bash 
+    tty: true

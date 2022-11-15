@@ -2,28 +2,29 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def exercise_0(file):
-    pass
+    return pd.read_csv(file)
 
 def exercise_1(df):
-    pass
+    return df.columns
 
 def exercise_2(df, k):
-    pass
+    return df[:k]
 
 def exercise_3(df, k):
-    pass
+    return df.sample(k)
 
 def exercise_4(df):
-    pass
+    return df.value_counts('type')
 
 def exercise_5(df):
-    pass
+    return df.value_counts('nameDest')[:10]
 
 def exercise_6(df):
-    pass
+    return df.loc[df['isFraud'] == 1]
 
 def exercise_7(df):
-    pass
+    df = df.groupby('nameOrig').apply(lambda x: x.nameDest.nunique())
+    return df.sort_values(ascending=False)
 
 def visual_1(df):
     pass

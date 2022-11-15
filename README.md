@@ -1,6 +1,6 @@
 # Taks from [TheForage](https://www.theforage.com)
 
-## This repository is a mean of showing the tasks that I've done at TheForage platform
+## This repository is a way of showing the tasks that I've done at TheForage platform
 
 # Areas of interest:
 
@@ -9,4 +9,4 @@
 - Data Science
 
 # Completed/ in progress programs
-- [JPMorgan Chase & Co. Cybersecurity Virtual Experience Program](https://github.com/PedroPianna/forage/jp-morgan)
+- [JPMorgan Chase & Co. Cybersecurity Virtual Experience Program](https://github.com/PedroPianna/forage/tree/main/jp-morgan)

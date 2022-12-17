@@ -1,6 +1,6 @@
 # Taks from [TheForage](https://www.theforage.com)
 
-## This repository is a way of showing the tasks that I've done at TheForage platform
+## Tasks that I've done at TheForage platform
 
 # Areas of interest:
 

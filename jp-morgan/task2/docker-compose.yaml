@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  forageenv:
+    container_name: 'forageenv'
+    build: .
+    ports:
+      - 8000:8000
+    volumes:
+      - ./mysite/:/home/
+    command: bash 
+    tty: true
